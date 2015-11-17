@@ -44,7 +44,7 @@ setup(name='plone.app.contenttypes',
           'Products.CMFPlone',
           'plone.app.contentmenu',
           'plone.app.event [dexterity]',  # You have to pin this to the desired version
-          'plone.app.dexterity < 2.1.1',  # before Plone 5
+          'plone.app.dexterity == 2.1.1',  # before Plone 5
           'plone.app.querystring >= 1.2.2',  # custom_query support
           'plone.dexterity >= 2.2.1',  # behaviors can provide primaryfields
           'plone.formwidget.querystring',
